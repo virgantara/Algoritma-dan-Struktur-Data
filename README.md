@@ -1,9 +1,9 @@
 #  Algoritma dan Struktur data
-Course Code: IFM2104
-Credit (SKS): 3
-Pre-requisites: Dasar-dasar pemrograman
-Program: Undergraduate Computer Science
-Instructor: Oddy V. Putra
+- Course Code: IFM2104
+- Credit (SKS): 3
+- Pre-requisites: Dasar-dasar pemrograman
+- Program: Undergraduate Computer Science
+- Instructor: Oddy V. Putra
 
 ## Deskripsi
 Kursus ini memperkenalkan mahasiswa pada algoritma dasar dan struktur data menggunakan Java. Mata kuliah ini menekankan pada pengembangan algoritma yang efisien, menganalisis kompleksitas waktu, dan memahami struktur data seperti array, linked list, stacks, queue, tree, dan graph. Mata kuliah ini bertujuan untuk membekali mahasiswa dengan keterampilan praktis untuk memecahkan masalah komputasi dunia nyata dengan mengimplementasikan algoritma dan struktur data di Java.
