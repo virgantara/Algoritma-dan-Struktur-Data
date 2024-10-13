@@ -14,13 +14,13 @@ After installation, you need to set the Java environment variables so the system
 
 2. Add `JAVA_HOME`:
 - In the Environment Variables window, click "New" under the "System variables" section.
-- For the "Variable name," enter JAVA_HOME.
-- For the "Variable value," enter the path where Java was installed. It is usually in C:\Program Files\Java\jdk-<version>.
+- For the "Variable name," enter `JAVA_HOME`.
+- For the "Variable value," enter the path where Java was installed. It is usually in `C:\Program Files\Java\jdk-<version>`.
 - Click "OK" to close the window.
 
 3. Update the `Path` Variable:
 - In the Environment Variables window, find the "Path" variable under "System variables," select it, and click "Edit."
-- Click "New" and add the following path: %JAVA_HOME%\bin.
+- Click "New" and add the following path: `%JAVA_HOME%\bin`.
 - Click "OK" to close the window.
 
 ## Verify the Installation
