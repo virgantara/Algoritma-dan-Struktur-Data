@@ -5,10 +5,10 @@
 - Program: Undergraduate Computer Science
 - Instructor: Oddy V. Putra
 
-## Deskripsi
+# Deskripsi
 Kursus ini memperkenalkan mahasiswa pada algoritma dasar dan struktur data menggunakan Java. Mata kuliah ini menekankan pada pengembangan algoritma yang efisien, menganalisis kompleksitas waktu, dan memahami struktur data seperti array, linked list, stacks, queue, tree, dan graph. Mata kuliah ini bertujuan untuk membekali mahasiswa dengan keterampilan praktis untuk memecahkan masalah komputasi dunia nyata dengan mengimplementasikan algoritma dan struktur data di Java.
 
-## Capaian Pembelajaran Mata Kuliah (CPMK):
+# Capaian Pembelajaran Mata Kuliah (CPMK):
 
 Di akhir perkuliahan ini, mahasiswa:
 
@@ -16,8 +16,8 @@ Di akhir perkuliahan ini, mahasiswa:
 - IFM2104-2: mampu membuat program sederhana dengan bahasa pemrograman Java
 - IFM2104-3: memiliki kemampuan untuk memecahkan permasalahan dilingkungan mahasiswa dengan pemrograman Java
 
-## Course Outline
-### Week 1
+# Course Outline
+## Week 1
 CPMK:
 - Mengenali persamaan dan perbedaan antara sintaks dan struktur C++ dan Java.
 - Memahami proses konversi logika CRUD dari C++ ke Java.
