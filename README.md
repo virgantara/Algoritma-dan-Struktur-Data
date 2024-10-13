@@ -7,18 +7,18 @@ To set up Java on Windows, follow these steps:
 
 ## Set Up Environment Variables
 After installation, you need to set the Java environment variables so the system recognizes Java commands from the command line.
-### Open the Environment Variables:
+1. Open the Environment Variables:
 - Right-click on "This PC" or "My Computer" on your desktop or in File Explorer and select "Properties."
 - Click on "Advanced system settings."
 - In the System Properties window, click the "Environment Variables" button.
 
-### Add `JAVA_HOME`:
+2. Add `JAVA_HOME`:
 - In the Environment Variables window, click "New" under the "System variables" section.
 - For the "Variable name," enter JAVA_HOME.
 - For the "Variable value," enter the path where Java was installed. It is usually in C:\Program Files\Java\jdk-<version>.
 - Click "OK" to close the window.
 
-### Update the `Path` Variable:
+3. Update the `Path` Variable:
 - In the Environment Variables window, find the "Path" variable under "System variables," select it, and click "Edit."
 - Click "New" and add the following path: %JAVA_HOME%\bin.
 - Click "OK" to close the window.
