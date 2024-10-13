@@ -27,3 +27,12 @@ Topik:
 - Tinjauan singkat tentang sintaksis Java dibandingkan dengan C++ (misalnya, tipe data, struktur kontrol, perbedaan pemrograman berorientasi objek).
 - Menulis program Java sederhana dengan menerjemahkan fungsionalitas CRUD yang ada dari C++ ke Java.
 - Pengenalan pemecahan masalah dan pengembangan algoritma di Java (misalnya, mengubah diagram alur / pseudocode ke kode Java).
+
+## Week 2
+CPMK:
+- Memahami dasar-dasar pemrograman Java.
+- Menerapkan operasi input/output dasar di Java.
+- Menulis, mengkompilasi, dan menjalankan program Java sederhana.
+
+Topik: Java syntax, dasar-dasar input/output, data types, dan variabel.
+Tool: Terminal atau Command Prompt, Notepad++, Sublime Text
