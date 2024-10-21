@@ -29,3 +29,4 @@ Email: budi@gmail.com
 ## Tambahan
 - cek validasi email dengan cara mengecek apakah ada tanda "@" di teks/String yang diinputkan user
 - lihat file [ValidasiInput.java](ValidasiInput.java) untuk contoh cek angka
+- lihat file [ValidasiEmail.java](ValidasiEmail.java) untuk contoh cek email
