@@ -11,8 +11,9 @@ public class Looping{
 			angka = angka * indeks;
 			indeks = indeks + 1;
 
-			System.out.println("Angka: " + );
-			System.out.println(indeks);
+			// Concatenation
+			System.out.println("Angka: " + angka);
+			System.out.println("Indeks: " + indeks);
 		}
 
 	}
