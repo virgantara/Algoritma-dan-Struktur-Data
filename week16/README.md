@@ -13,7 +13,7 @@ Setiap proyek harus mencakup:
 1. Manajemen Antrian di Bank atau Rumah Sakit
 - Menggunakan Queue untuk memproses antrian pelanggan atau pasien.
 - Fitur yang harus ada:
---- Menambah pelanggan/pasien ke dalam antrian.
---- Melayani pelanggan/pasien dari antrian.
---- Melihat pelanggan/pasien berikutnya dalam antrian.
---- Menampilkan seluruh antrian saat ini.
+- 1. Menambah pelanggan/pasien ke dalam antrian.
+- 1. Melayani pelanggan/pasien dari antrian.
+- 1. Melihat pelanggan/pasien berikutnya dalam antrian.
+- 1. Menampilkan seluruh antrian saat ini.
