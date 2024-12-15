@@ -134,7 +134,7 @@ public class ContohLinkedList {
 3. `display` Method: Traverses the list and prints each node’s data.
 4. The list created in the `main` method contains the elements `10 -> 20 -> 30 -> null`.
 
-## Menghapus sebuah Node dari Linked List
+# 2. Menghapus sebuah Node dari Linked List
 Menghapus node melibatkan penghapusan node dengan memperbarui link sehingga list tetap terhubung.
 Kita modifikasi `class ContohLinkedList` di atas dengan menambahkan method berikut:
 ```java
@@ -177,13 +177,13 @@ public static void main(String[] args) {
 }
 ```
 
-### Penjelasan:
+## Penjelasan:
 
 1. The `delete` method removes the node containing the specified key.
 2. If the head node contains the key, the head is updated.
 3. The method traverses the list, finds the node to be deleted, and updates the link to skip the deleted node.
 
-### Output
+## Output
 ```
 Original List:
 10 -> 20 -> 30 -> 40 -> null
@@ -191,7 +191,7 @@ After Deleting 30:
 10 -> 20 -> 40 -> null
 ```
 
-## Traverse LinkedList
+# Traverse LinkedList
 Dari tadi ngomongin traverse, apa sih traverse itu? Traverse berarti mengunjungi setiap node dalam list dan melakukan beberapa tindakan, misal mencetak data.
 
 Kita modifikasi `class ContohLinkedList` di atas dengan menambahkan method berikut:
@@ -219,11 +219,17 @@ public static void main(String[] args) {
 }
 ```
 
-### Penjelasan
+## Penjelasan
 1. Metode traverse melewati setiap node dan mencetak datanya.
 2. Memasukkan tiga elemen (`5`, `15`, `25`) akan menghasilkan list yang dapat ditelusuri.
 
-### Output
+## Output
 ```
 Traversed List: 5 15 25 
 ```
+
+# 4. Kesimpulan
+
+1. Insertion: Adding new elements to a linked list.
+2. Deletion: Removing specific elements from the list by updating the links.
+3. Traversal: Visiting each element in the list to perform operations like printing.
