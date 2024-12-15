@@ -17,22 +17,17 @@ Di akhir perkuliahan ini, mahasiswa:
 - IFM2104-3: memiliki kemampuan untuk memecahkan permasalahan dilingkungan mahasiswa dengan pemrograman Java
 
 # Course Outline
-## [Week 1](week1)
-CPMK:
-- Mengenali persamaan dan perbedaan antara sintaks dan struktur C++ dan Java.
-- Memahami proses konversi logika CRUD dari C++ ke Java.
-- Mengembangkan pemikiran algoritmik dengan pemecahan masalah sederhana menjadi langkah-langkah dan solusi yang logis.
-
-Topik:
-- Tinjauan singkat tentang sintaksis Java dibandingkan dengan C++ (misalnya, tipe data, struktur kontrol, perbedaan pemrograman berorientasi objek).
-- Menulis program Java sederhana dengan menerjemahkan fungsionalitas CRUD yang ada dari C++ ke Java.
-- Pengenalan pemecahan masalah dan pengembangan algoritma di Java (misalnya, mengubah diagram alur / pseudocode ke kode Java).
-
-## [Week 2](week2)
-CPMK:
-- Memahami dasar-dasar pemrograman Java.
-- Menerapkan operasi input/output dasar di Java.
-- Menulis, mengkompilasi, dan menjalankan program Java sederhana.
-
-Topik: Java syntax, dasar-dasar input/output, data types, dan variabel.
-Tool: Terminal atau Command Prompt, Notepad++, Sublime Text
+## [Week 1](week01)
+## [Week 2](week02)
+## [Week 3](week03)
+## [Week 4](week04)
+## [Week 5](week05)
+## [Week 6](week06)
+## [Week 7](week07)
+## [Week 8](week08)
+## [Week 9](week09)
+## [Week 10](week10)
+## [Week 11](week11)
+## [Week 12](week12)
+## [Week 13](week13)
+## [Week 14](week14)
