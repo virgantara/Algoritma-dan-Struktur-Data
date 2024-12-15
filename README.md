@@ -30,4 +30,4 @@ Di akhir perkuliahan ini, mahasiswa:
 ### [Week 11 - Rekursi](week11)
 ### [Week 12 - Tree](week12)
 ### [Week 13 - Graph](week13)
-### [Week 14](week14)
+### [Week 14 - Sorting](week14)
