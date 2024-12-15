@@ -26,7 +26,7 @@ Di akhir perkuliahan ini, mahasiswa:
 ### [Week 7 - What is a String?](week07)
 ### [Week 8 - Introduction to Data Structures](week08)
 ### [Week 9 - Intro to Class and Linked List](week09)
-### [Week 10](week10)
+### [Week 10 - Stack & Queue](week10)
 ### [Week 11](week11)
 ### [Week 12](week12)
 ### [Week 13](week13)
