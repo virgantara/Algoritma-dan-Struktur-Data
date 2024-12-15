@@ -75,3 +75,61 @@ public class Mobil {
 
 # 1. What is a Linked List?
 A linked list is a collection of nodes where each node contains data and a reference (or link) to the next node. Unlike arrays, linked lists don’t need to have a fixed size, making them flexible for storing data. In a singly linked list, each node points to the next node in the sequence.
+
+## Contoh Kode Linked List dasar
+Di sini, Linked List menggunakan object yang bernama `Node`. Bayangkan `Node` itu sebagai sebuah object titik atau lingkaran. Linked List adalah kumpulan dari `Node` yang saling terhubung dan memiliki hirarki.
+
+```java
+class Node {
+    int data;
+    Node next;
+
+    public Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+}
+
+public class ContohLinkedList {
+    Node head; 
+
+    public void insert(int data) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            head = newNode;
+            return;
+        }
+
+        Node current = head;
+        while (current.next != null) {
+            current = current.next;
+        }
+        current.next = newNode;
+    }
+
+    public void display() {
+        Node current = head;
+        while (current != null) {
+            System.out.print(current.data + " -> ");
+            current = current.next;
+        }
+        System.out.println("null");
+    }
+
+    public static void main(String[] args) {
+        ContohLinkedList list = new ContohLinkedList();
+        list.insert(10);
+        list.insert(20);
+        list.insert(30);
+
+        System.out.println("Linked List:");
+        list.display();
+    }
+}
+```
+
+## Penjelasan:
+1. `Node` Class: Represents each node with `data` and a `next` reference pointing to the next node.
+2. `insert` Method: Adds a new node at the end of the list.
+3. `display` Method: Traverses the list and prints each node’s data.
+4. The list created in the `main` method contains the elements `10 -> 20 -> 30 -> null`.
