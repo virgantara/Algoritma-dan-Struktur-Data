@@ -27,7 +27,7 @@ Di akhir perkuliahan ini, mahasiswa:
 ### [Week 8 - Introduction to Data Structures](week08)
 ### [Week 9 - Intro to Class and Linked List](week09)
 ### [Week 10 - Stack & Queue](week10)
-### [Week 11](week11)
+### [Week 11 - Rekursi](week11)
 ### [Week 12](week12)
 ### [Week 13](week13)
 ### [Week 14](week14)
