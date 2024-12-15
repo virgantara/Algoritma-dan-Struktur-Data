@@ -28,6 +28,6 @@ Di akhir perkuliahan ini, mahasiswa:
 ### [Week 9 - Intro to Class and Linked List](week09)
 ### [Week 10 - Stack & Queue](week10)
 ### [Week 11 - Rekursi](week11)
-### [Week 12](week12)
-### [Week 13](week13)
+### [Week 12 - Tree](week12)
+### [Week 13 - Graph](week13)
 ### [Week 14](week14)
