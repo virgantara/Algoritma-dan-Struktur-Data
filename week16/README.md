@@ -55,3 +55,10 @@ Setiap proyek harus mencakup:
 | **Presentasi Proyek**   | Menjelaskan proyek dengan baik dan menjawab pertanyaan dengan tepat.                          | 10                |
 
 **Total Skor**: 100
+
+
+## Instruksi Pengumpulan
+
+1. Kode Program dikumpulkan dalam format .zip atau .rar yang berisi file .java ke email oddy[at]unida.gontor.ac.id
+2. Laporan Proyek dikumpulkan dalam format PDF.
+3. Kirimkan proyek melalui email atau platform yang telah ditentukan.
