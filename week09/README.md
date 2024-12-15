@@ -128,8 +128,102 @@ public class ContohLinkedList {
 }
 ```
 
-## Penjelasan:
+### Penjelasan:
 1. `Node` Class: Represents each node with `data` and a `next` reference pointing to the next node.
 2. `insert` Method: Adds a new node at the end of the list.
 3. `display` Method: Traverses the list and prints each node’s data.
 4. The list created in the `main` method contains the elements `10 -> 20 -> 30 -> null`.
+
+## Menghapus sebuah Node dari Linked List
+Menghapus node melibatkan penghapusan node dengan memperbarui link sehingga list tetap terhubung.
+Kita modifikasi `class ContohLinkedList` di atas dengan menambahkan method berikut:
+```java
+public void delete(int key) {
+    if (head == null) return;
+
+    if (head.data == key) {
+        head = head.next;
+        return;
+    }
+
+    Node current = head;
+    while (current.next != null && current.next.data != key) {
+        current = current.next;
+    }
+
+    if (current.next == null) {
+        System.out.println("Key not found!");
+        return;
+    }
+
+    current.next = current.next.next;
+}
+```
+Di bagian `main` method, kita modif dengan kode berikut:
+```java
+public static void main(String[] args) {
+    ContohLinkedList list = new ContohLinkedList();
+    list.insert(10);
+    list.insert(20);
+    list.insert(30);
+    list.insert(40);
+
+    System.out.println("Original List:");
+    list.display();
+
+    list.delete(30);
+    System.out.println("After Deleting 30:");
+    list.display();
+}
+```
+
+### Penjelasan:
+
+1. The `delete` method removes the node containing the specified key.
+2. If the head node contains the key, the head is updated.
+3. The method traverses the list, finds the node to be deleted, and updates the link to skip the deleted node.
+
+### Output
+```
+Original List:
+10 -> 20 -> 30 -> 40 -> null
+After Deleting 30:
+10 -> 20 -> 40 -> null
+```
+
+## Traverse LinkedList
+Dari tadi ngomongin traverse, apa sih traverse itu? Traverse berarti mengunjungi setiap node dalam list dan melakukan beberapa tindakan, misal mencetak data.
+
+Kita modifikasi `class ContohLinkedList` di atas dengan menambahkan method berikut:
+```java
+public void traverse() {
+    Node current = head;
+    while (current != null) {
+        System.out.print(current.data + " ");
+        current = current.next;
+    }
+    System.out.println();
+}
+```
+
+Di bagian `main` method, kita modif dengan kode berikut:
+```java
+public static void main(String[] args) {
+    ContohLinkedList list = new ContohLinkedList();
+    list.insert(5);
+    list.insert(15);
+    list.insert(25);
+
+    System.out.print("Traversed List: ");
+    list.traverse();
+}
+```
+
+### Penjelasan
+1. Metode traverse melewati setiap node dan mencetak datanya.
+2. Memasukkan tiga elemen (`5`, `15`, `25`) akan menghasilkan list yang dapat ditelusuri.
+
+### Output
+```
+Traversed List: 5 15 25 
+```
