@@ -35,3 +35,55 @@ public class ContohFaktorial {
 ```bash
 Faktorial dari bilangan 5 adalah: 120
 ```
+
+## 2. Contoh: Memunculkan deret bilangan Fibonacci
+Deret Fibonacci adalah serangkaian angka di mana setiap angka adalah jumlah dari dua angka sebelumnya. Deret ini dimulai dengan `0` dan `1`. Sebagai contoh, enam angka Fibonacci pertama adalah `0, 1, 1, 2, 3, 5`. Dengan menggunakan rekursi, angka Fibonacci pada posisi `n` dapat didefinisikan sebagai `fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2)`, dengan kasus dasar `fibonacci(0) = 0` dan `fibonacci(1) = 1`.
+
+Berikut contoh kodenya:
+```java
+public class ContohFibonacci {
+
+    public int fibonacci(int n) {
+        if (n == 0) { // Base case 1
+            return 0;
+        } else if (n == 1) { // Base case 2
+            return 1;
+        } else {
+            return fibonacci(n - 1) + fibonacci(n - 2); // Recursive case
+        }
+    }
+
+    public static void main(String[] args) {
+    	ContohFibonacci obj = new ContohFibonacci();
+        int ke = 6;
+        System.out.println("Bilangan Fibonacci pada urutan " + ke + " adalah: " + obj.fibonacci(ke));
+    }
+}
+```
+
+### Penjelasan
+
+1. Base Cases: `fibonacci(0) = 0` and `fibonacci(1) = 1`.
+2. Recursive Case: `fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2)`.
+### Output
+```bash
+Bilangan Fibonacci pada urutan 7 adalah: 13
+```
+
+## 3. Studi Kasus: Menjumlahkan deret angka
+Anda juga dapat menggunakan rekursi untuk menghitung jumlah bilangan asli dari `1` hingga `n`. Misalnya, jumlah dari 4 bilangan asli pertama adalah `1 + 2 + 3 + 4 = 10`. Pendekatan rekursif adalah mendefinisikan jumlah `n` sebagai `n + jumlah (n - 1)` dengan kasus dasar adalah `jumlah(0) = 0`.
+
+### Soal
+1. Buatlah kodenya dengan secara rekursif dengan Java
+2. Berikan input bilangan ke-n
+### Output harapan
+```bash
+Jumlah bilangan asli dari 1 hingga 4 adalah: 10
+```
+
+# Rangkuman Poin-Poin Penting
+
+1. Rekursi adalah sebuah fungsi yang memanggil dirinya sendiri untuk menyelesaikan masalah yang lebih kecil.
+2. Setiap fungsi rekursif membutuhkan kasus dasar untuk menghentikan rekursi dan kasus rekursif untuk melanjutkan pemanggilan fungsi.
+3. Contoh-contoh seperti perhitungan faktorial, deret Fibonacci, dan jumlah bilangan asli adalah masalah klasik yang mudah dipahami oleh pemula untuk memahami rekursi.
+4. Rekursi dapat menyederhanakan kode untuk masalah yang secara alami terurai menjadi beberapa contoh yang lebih kecil dari masalah yang sama.
