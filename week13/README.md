@@ -100,11 +100,105 @@ BFS(G, start):
 ```
 
 ### Ilustrasi BFS
-Misalkan kita memiliki graph dengan simpul-simpul dan sisi seperti ini:
+Misalkan kita memiliki graph dengan node-node dan sisi seperti ini:
 ```lua
     1
    / \
   2   3
   |   |
   4---5
+```
+Graph ini memiliki hubungan:
+- `1` terhubung ke `2` dan `3`
+- `2` terhubung ke `4`
+- `3` terhubung ke `5`
+- `4` terhubung ke `5`
+
+Langkah BFS dimulai dari node `1`:
+1. Node `1`
+- Antrian: `[1]`
+- Visited: `{1}`
+- Output: `1`
+
+2. Ambil `1` dari antrian, masukkan tetangganya `2` dan `3`.
+- Antrian: `[2, 3]`
+- Visited: `{1, 2, 3}`
+- Output: `1, 2, 3`
+
+3. Ambil `2` dari antrian, masukkan tetangganya `4`.
+- Antrian: `[3, 4]`
+- Visited: `{1, 2, 3, 4}`
+- Output: `1, 2, 3, 4`
+
+4. Ambil `3` dari antrian, masukkan tetangganya `5`.
+- Antrian: `[4, 5]`
+- Visited: `{1, 2, 3, 4, 5}`
+- Output: `1, 2, 3, 4, 5`
+
+5. Ambil `4` dari antrian (tetangganya sudah dikunjungi).
+6. Ambil `5` dari antrian (tetangganya sudah dikunjungi).
+
+Hasil Akhir: `1, 2, 3, 4, 5`
+
+### Contoh kode BFS
+```java
+import java.util.*;
+
+public class ContohBFS {
+    private Map<Integer, List<Integer>> graph;
+
+    public ContohBFS() {
+        graph = new HashMap<>();
+    }
+
+    // Menambahkan sisi ke graph
+    public void addEdge(int source, int destination) {
+        graph.computeIfAbsent(source, k -> new ArrayList<>()).add(destination);
+        graph.computeIfAbsent(destination, k -> new ArrayList<>()).add(source);
+    }
+
+    // Metode untuk BFS
+    public void bfs(int startNode) {
+        Queue<Integer> queue = new LinkedList<>();
+        Set<Integer> visited = new HashSet<>();
+
+        queue.add(startNode);
+        visited.add(startNode);
+
+        while (!queue.isEmpty()) {
+            int node = queue.poll();
+            System.out.print(node + " ");
+
+            for (int neighbor : graph.getOrDefault(node, new ArrayList<>())) {
+                if (!visited.contains(neighbor)) {
+                    queue.add(neighbor);
+                    visited.add(neighbor);
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        ContohBFS graph = new ContohBFS();
+        
+        graph.addEdge(1, 2);
+        graph.addEdge(1, 3);
+        graph.addEdge(2, 4);
+        graph.addEdge(3, 4);
+        graph.addEdge(4, 5);
+
+        System.out.println("BFS traversal mulai dari node 1:");
+        graph.bfs(1);
+    }
+}
+```
+
+### Penjelasan
+1. `addEdge` menambahkan hubungan antar node.
+2. `bfs` melakukan traversal BFS mulai dari node tertentu menggunakan antrian (`Queue`).
+3. Node yang dikunjungi disimpan dalam `Set` agar tidak dikunjungi dua kali.
+### Output
+```bash
+BFS traversal mulai dari node 1:  
+1 2 3 4 5
 ```
