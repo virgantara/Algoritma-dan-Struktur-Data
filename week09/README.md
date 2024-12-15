@@ -128,6 +128,17 @@ public class ContohLinkedList {
 }
 ```
 
+### Cara menjalankan kode ContohLinkedList.java
+1. Buka terminal
+2. Compile dulu dengan 
+```bash
+javac ContohLinkedList.java
+```
+3. Run dengan 
+```bash
+java ContohLinkedList
+```
+
 ### Penjelasan:
 1. `Node` Class: Represents each node with `data` and a `next` reference pointing to the next node.
 2. `insert` Method: Adds a new node at the end of the list.
