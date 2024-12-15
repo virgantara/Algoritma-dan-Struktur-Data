@@ -59,6 +59,6 @@ Setiap proyek harus mencakup:
 
 ## Instruksi Pengumpulan
 
-1. Kode Program dikumpulkan dalam format .zip atau .rar yang berisi file .java ke email oddy[at]unida.gontor.ac.id
+1. Kode Program dikumpulkan dalam format .zip yang berisi file .java ke email oddy[at]unida.gontor.ac.id
 2. Laporan Proyek dikumpulkan dalam format PDF.
 3. Kirimkan proyek melalui email atau platform yang telah ditentukan.
