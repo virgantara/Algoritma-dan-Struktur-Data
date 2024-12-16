@@ -9,15 +9,18 @@ public class Animasi extends JPanel{
     private int currentCol = 0;
 
     private int[][] matrix = {
-   		{10, 20, 30, 44},
-        {40, 50, 60, 44},
-        {70, 80, 90, 44}
+   		{10, 20, 30},
+        {40, 50, 60}
     };
 
     Font font = null;
 
     public Animasi(){
     	this.font = new Font("Arial", Font.PLAIN, 40);
+    	this.panjang_baris = this.matrix.length;
+    	this.panjang_kolom = this.matrix[0].length;
+
+    	this.updateKoordinatPengindeks();
     }
 
     public static void main(String[]args){
@@ -32,10 +35,7 @@ public class Animasi extends JPanel{
     	frame.setVisible(true);
 		frame.setLocationRelativeTo(null);
     	
-    	animasi.panjang_baris = animasi.matrix.length;
-    	animasi.panjang_kolom = animasi.matrix[0].length;
-
-    	animasi.updateKoordinatPengindeks();
+    	
     }
 
     @Override
