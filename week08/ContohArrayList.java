@@ -11,7 +11,7 @@ public class ContohArrayList{
 
 		daftar.add(mhs1);	
 
-		System.out.println(daftar.size());
+		System.out.println(mhs1);
 	}
 
 }
